@@ -1,0 +1,31 @@
+{
+    "name": "@renatopuente/rocky-agent-sound",
+    "version": "1.0.0",
+    "description": "Reproduce un sonido aleatorio de Rocky en Claude Code cuando solicita permiso o termina de responder",
+    "bin": {
+          "rocky-agent-sound": "bin/install.js",
+          "rocky-uninstall": "bin/uninstall.js"
+    },
+    "files": [
+          "bin/",
+          "Rocky_A.mp3",
+          "Rocky_B.mp3"
+    ],
+    "keywords": [
+          "claude-code",
+          "hooks",
+          "sound",
+          "notification",
+          "anthropic"
+    ],
+    "author": "renatopuente",
+    "license": "MIT",
+    "repository": {
+          "type": "git",
+          "url": "git+https://github.com/renatopuente/Rocky-agent-sound.git"
+    },
+    "homepage": "https://github.com/renatopuente/Rocky-agent-sound#readme",
+    "engines": {
+          "node": ">=16"
+    }
+}
